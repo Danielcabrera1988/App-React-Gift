@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import { getGifts } from "../helpers/getGifs";
 
 export const useFetchGifs = (category) => {
-
-
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -20,6 +18,6 @@ export const useFetchGifs = (category) => {
   }, []);
   return {
     images,
-    isLoading,
+    isLoading
   };
 };
