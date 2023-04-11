@@ -1,3 +1,3 @@
 #GiftExpertApp
 
-Este es mi primer app del curso de Fernando Herrera
+Primer app del curso de Fernando Herrera
