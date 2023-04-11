@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comprobando GiftItem Debe realziar la snap del componente 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="PELONDRA"
+      src="http://algopelado.com/pelado.jpg"
+    />
+    <p>
+      PELONDRA
+    </p>
+  </div>
+</div>
+`;

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { AddCategory, GiftGrid } from "./component";
+import { AddCategory, GifGrid } from "./component/index";
 
-export const GiftExpertApp = () => {
-  const [categories, setCategories] = useState(["One Punch"]);
+export const GifExpertApp = () => {
+  const [categories, setCategories] = useState(["Goku"]);
 
   const onAddCategory = (newCategory) => {
     setCategories([newCategory, ...categories]);
@@ -14,7 +14,7 @@ export const GiftExpertApp = () => {
       <AddCategory onNewCategory={onAddCategory} />
 
       {categories.map((category) => (
-        <GiftGrid key={category} category={category} />
+        <GifGrid key={category} category={category} />
       ))}
     </>
   );
